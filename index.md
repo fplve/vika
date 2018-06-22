@@ -10,6 +10,7 @@ layout: default
 ![бот](https://github.com/fplve/vika/raw/gh-pages/assets/images/listia_kirpichnaia_stena_rastenie_122951_1920x1080.jpg)
 > Чат-боты помогают автоматизировать задачи, работая по заданному алгоритму. Они ведут диалог с пользователем, выполняя его просьбы, отвечая на запросы или развлекая своими ответами.
 
+## Содержание
 * [Модуль cmdlist.php](#cmdlist)
 * [Модуль info.php](#info)
 * [Модуль picture.php](#picture)
