@@ -83,7 +83,7 @@ function info($peer_id) {
 ### Модуль picture.php
 
 Данный модуль отправляет случайное изображение, из доступных боту.
-![инфо](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_info.gif)
+![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
 ```php
 <?php
 require_once dirname(__FILE__)."/../core/pixabay_config.php";
