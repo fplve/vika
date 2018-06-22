@@ -10,8 +10,16 @@ layout: default
 ![бот](https://github.com/fplve/vika/raw/gh-pages/assets/images/listia_kirpichnaia_stena_rastenie_122951_1920x1080.jpg)
 > Чат-боты помогают автоматизировать задачи, работая по заданному алгоритму. Они ведут диалог с пользователем, выполняя его просьбы, отвечая на запросы или развлекая своими ответами.
 
+[Модуль cmdlist.php](#cmdlist)
+[Модуль info.php](#info)
+[Модуль picture.php](#picture)
+[Модуль qanda.php](#qanda)
+[Модуль rolling.php](#rolling)
+[Модуль tts.php](#tts)
 [Модуль weather.php](#weather)
 
+
+<a name="cmdlist"></a>
 ### Модуль cmdlist.php
 
 Данный модуль выводит список $text.
@@ -45,7 +53,7 @@ function cmdlist($text, $peer_id) {
 }
 ```
 
-
+<a name="info"></a>
 ### Модуль info.php
 
 Данный модуль показывает список всех команд, доступных боту.
@@ -87,7 +95,7 @@ function info($peer_id) {
 }
 ```
 
-
+<a name="picture"></a>
 ### Модуль picture.php
 
 Данный модуль отправляет случайное изображение, из доступных боту.
@@ -111,6 +119,7 @@ function picture($peer_id) {
 }
 ```
 
+<a name="qanda"></a>
 ### Модуль qanda.php
 
 Данный модуль случайно отвечает на вопрос.
@@ -126,7 +135,7 @@ function questionandanswer($peer_id, $message_id) {
 }
 ```
 
-
+<a name="rolling"></a>
 ### Модуль rolling.php
 
 Данный модуль... что-то делает, я не понял.
@@ -147,7 +156,7 @@ function roll($text, $peer_id) {
 }
 ```
 
-
+<a name="tts"></a>
 ### Модуль tts.php
 
 Данный модуль озвучивает сообщение с помощью технологии Яндекса Cloud SpeechKit.
@@ -166,7 +175,7 @@ function tts($text, $peer_id) {
 ```
 
 
-<a name="weather">
+<a name="weather"></a>
 ### Модуль weather.php
 
 Данный модуль возвращает текущую погоду в Омске.
@@ -182,4 +191,3 @@ function weather($peer_id) {
     return sendMessage($message, null, $peer_id);
 }
 ```
-</a>
