@@ -1,6 +1,6 @@
----
+-------------------------
 layout: default
----
+-------------------------
 
 [![Watch the video](https://github.com/fplve/vika/raw/gh-pages/assets/images/chat-bot_original.gif)](https://vk.com/video144351669_456239071)
 
@@ -9,6 +9,8 @@ layout: default
 > Чат-бот – это программа-собеседник имитирующая человеческое общение при помощи текста или голоса.
 ![бот](https://github.com/fplve/vika/raw/gh-pages/assets/images/listia_kirpichnaia_stena_rastenie_122951_1920x1080.jpg)
 > Чат-боты помогают автоматизировать задачи, работая по заданному алгоритму. Они ведут диалог с пользователем, выполняя его просьбы, отвечая на запросы или развлекая своими ответами.
+
+-------------------------
 
 ## Содержание
 * [Модуль cmdlist.php](#cmdlist)
@@ -19,6 +21,7 @@ layout: default
 * [Модуль tts.php](#tts)
 * [Модуль weather.php](#weather)
 
+-------------------------
 
 <a name="cmdlist"></a>
 ### Модуль cmdlist.php
@@ -53,6 +56,8 @@ function cmdlist($text, $peer_id) {
     return sendMessage($message, null, $peer_id);
 }
 ```
+
+-------------------------
 
 <a name="info"></a>
 ### Модуль info.php
@@ -96,6 +101,8 @@ function info($peer_id) {
 }
 ```
 
+-------------------------
+
 <a name="picture"></a>
 ### Модуль picture.php
 
@@ -120,6 +127,8 @@ function picture($peer_id) {
 }
 ```
 
+-------------------------
+
 <a name="qanda"></a>
 ### Модуль qanda.php
 
@@ -135,6 +144,8 @@ function questionandanswer($peer_id, $message_id) {
     return sendMessage($message, null, $peer_id);
 }
 ```
+
+-------------------------
 
 <a name="rolling"></a>
 ### Модуль rolling.php
@@ -157,6 +168,8 @@ function roll($text, $peer_id) {
 }
 ```
 
+-------------------------
+
 <a name="tts"></a>
 ### Модуль tts.php
 
@@ -175,6 +188,7 @@ function tts($text, $peer_id) {
 }
 ```
 
+-------------------------
 
 <a name="weather"></a>
 ### Модуль weather.php
@@ -192,3 +206,6 @@ function weather($peer_id) {
     return sendMessage($message, null, $peer_id);
 }
 ```
+
+-------------------------
+
