@@ -13,6 +13,7 @@ layout: default
 ### Модуль cmdlist.php
 
 Данный модуль выводит список $text.
+![инфо](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_list.gif)
 ```php
 <?php
 function cmdlist($text, $peer_id) {
@@ -40,6 +41,8 @@ function cmdlist($text, $peer_id) {
     return sendMessage($message, null, $peer_id);
 }
 ```
+
+
 ### Модуль info.php
 
 Данный модуль показывает список всех команд, доступных боту.
@@ -80,6 +83,8 @@ function info($peer_id) {
 	return $res;
 }
 ```
+
+
 ### Модуль picture.php
 
 Данный модуль отправляет случайное изображение, из доступных боту.
@@ -100,5 +105,75 @@ function picture($peer_id) {
 	} while ($name_image == NULL)
 	$attachment = uploadPhoto($url_image, $name_image, $peer_id)
 	return sendMessage(null, $attachment, $peer_id);
+}
+```
+
+### Модуль qanda.php
+
+Данный модуль случайно отвечает на вопрос.
+![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
+```php
+<?php
+function questionandanswer($peer_id, $message_id) {
+    $user_id = getUserIdByMessage($message_id);
+    $user = json_decode(getUserInfo($user_id));
+    $answer = rand(1, 2);
+    $message = ($answer == 1) ? "Да, {$user->name}." : "Нет, {$user->name}.";
+    return sendMessage($message, null, $peer_id);
+}
+```
+
+
+### Модуль rolling.php
+
+Данный модуль... что-то делает, я не понял.
+![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
+```php
+<?php
+function roll($text, $peer_id) {
+    $arrayUsers = getArrayUsers($peer_id);
+    $numUser = (count($arrayUsers) - 1);
+    $user_id = $arrayUsers[rand(0, $numUser)];
+    $user = json_decode(getUserInfo($user_id));
+    if (empty($text)) {
+        $res = sendMessage("{$user->name} {$user->last_name} выпал из окна", null, $peer_id);
+    } else {
+        $res = sendMessage("{$user->name} {$user->last_name} {$text}", null, $peer_id);
+    }
+    return $res;
+}
+```
+
+
+### Модуль tts.php
+
+Данный модуль озвучивает сообщение с помощью технологии Яндекса Cloud SpeechKit.
+![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
+```php
+<?php
+function tts($text, $peer_id) {
+	$arrayEmotion = array('good', 'neutral', 'evil');
+	$indexEmotion = rand(0, 2);
+	$file = saveVoiceMessage($text, 'jane', $arrayEmotion[$indexEmotion]);
+	$attachment = uploadVoiceMessage($file, $peer_id);
+	if (!(is_array($attachment))) return sendMessage(null, $attachment, $peer_id);
+	else return $attachment;
+}
+```
+
+
+### Модуль weather.php
+
+Данный модуль возвращает текущую погоду в Омске.
+![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_weather.gif)
+```php
+<?php
+function weather($peer_id) {
+    $data = json_decode(file_get_contents("http://api.wunderground.com/api/47e38818810ce9cb/conditions/q/RU/Omsk.json"));
+    $temp_city = $data->current_observation->temperature_string;
+    $feel_city = $data->current_observation->feelslike_string;
+    $name_city = $data->current_observation->display_location->full;
+    $message = "{$name_city}\r\nТемпература: {$temp_city}\r\nОщущается: {$feel_city}";
+    return sendMessage($message, null, $peer_id);
 }
 ```
