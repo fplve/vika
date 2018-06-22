@@ -10,6 +10,8 @@ layout: default
 ![бот](https://github.com/fplve/vika/raw/gh-pages/assets/images/listia_kirpichnaia_stena_rastenie_122951_1920x1080.jpg)
 > Чат-боты помогают автоматизировать задачи, работая по заданному алгоритму. Они ведут диалог с пользователем, выполняя его просьбы, отвечая на запросы или развлекая своими ответами.
 
+[Модуль weather.php](#weather)
+
 ### Модуль cmdlist.php
 
 Данный модуль выводит список $text.
@@ -164,6 +166,7 @@ function tts($text, $peer_id) {
 ```
 
 
+<a name="weather">
 ### Модуль weather.php
 
 Данный модуль возвращает текущую погоду в Омске.
@@ -179,3 +182,4 @@ function weather($peer_id) {
     return sendMessage($message, null, $peer_id);
 }
 ```
+</a>
