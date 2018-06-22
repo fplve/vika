@@ -149,6 +149,7 @@ function roll($text, $peer_id) {
 ### Модуль tts.php
 
 Данный модуль озвучивает сообщение с помощью технологии Яндекса Cloud SpeechKit.
+
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
 ```php
 <?php
