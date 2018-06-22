@@ -20,10 +20,40 @@
 <meta property="og:site_name" content="Вика-Пика" />
 <script type="application/ld+json">
 {"name":"Вика-Пика","description":"VK-бот","@type":"WebSite","url":"https://fplve.github.io/vika/","headline":"Вика-Пика","@context":"http://schema.org"}</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
+</script>
   </head>
 
   <body>
-    <div id="container">
+   <div id="upbutton"></div>
+
+<script>
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            if ($('#upbutton').is(':hidden')) {
+                $('#upbutton').css({opacity : 1}).fadeIn('slow');
+            }
+        } else { $('#upbutton').stop(true, false).fadeOut('fast'); }
+    });
+    $('#upbutton').click(function() {
+        $('html, body').stop().animate({scrollTop : 0}, 300);
+    });
+</script>
+
+<style>
+  #upbutton {
+    background: url("https://github.com/fplve/vika/raw/gh-pages/assets/images/up3.png") no-repeat top left;
+    height: 60px;
+    width: 60px;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    z-index: 999;
+  }
+</style>
+   <div id="container">
       <div class="inner">
 
         <header>
