@@ -14,15 +14,15 @@ layout: default
 
 <article>
 <h2>Модули</h2>
-<a href="#cmdlist">Модуль cmdlist.php</a>
-* [Модуль cmdlist.php](#cmdlist)
-<a href="#info">Модуль info.php</a>
-* [Модуль info.php](#info)
-* [Модуль picture.php](#picture)
-* [Модуль qanda.php](#qanda)
-* [Модуль rolling.php](#rolling)
-* [Модуль tts.php](#tts)
-* [Модуль weather.php](#weather)
+<ul>
+<li><a href="#cmdlist">Модуль cmdlist.php</a></li>
+<li><a href="#info">Модуль info.php</a></li>
+<li><a href="#picture">Модуль picture.php</a></li>
+<li><a href="#qanda">Модуль qanda.php</a></li>
+<li><a href="#rolling">Модуль rolling.php</a></li>
+<li><a href="#tts">Модуль tts.php</a></li>
+<li><a href="#weather">Модуль weather.php</a></li>
+</ul>
 </article>
 
 -------------------------
