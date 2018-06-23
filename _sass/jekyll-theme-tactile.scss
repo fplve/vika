@@ -362,60 +362,79 @@ footer a:hover {
   content: '.';
 }
 
-@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
-.menu-main {
+* { box-sizing: border-box; }
+nav { background: white; }
+nav ul {
   list-style: none;
-  padding: 0 30px;
   margin: 0;
-  font-size: 18px;
-  text-align: center;
-  position: relative;
-  background: white;
+  padding: 0;
 }
-.menu-main:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 20px;
-  left: 0;
-  bottom: -20px;
-  background: radial-gradient(white 0%, white 70%, rgba(255,255,255,0) 70%, rgba(255,255,255,0) 100%) 0 -10px;
-  background-size: 20px 20px;
-  background-repeat: repeat-x;
-}
-.menu-main li {display: inline-block;}
-.menu-main a {
+nav a {
   text-decoration: none;
+  outline: none;
+  display: block;
+  transition: .4s ease-in-out;
+}
+.topmenu {
+  text-align: center;
+  padding: 10px 0;
+}
+.topmenu > li {
   display: inline-block;
-  margin: 0 15px;
-  padding: 10px 30px;
-  font-family: 'PT Sans Caption', sans-serif;
-  color: #777777;
-  transition: .3s linear;
   position: relative;
 }
-.menu-main a:before,
-.menu-main a:after {
+.topmenu > li:after {
   content: "";
   position: absolute;
-  top: calc(50% - 3px);
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: #F58262;
-  opacity: 0;
-  transition: .5s ease-in-out;
+  right: 0;
+  width: 1px;
+  height: 12px;
+  background: #d2d2d2;
+  top: 16px;
+  box-shadow: 4px -2px 0 #d2d2d2;
+  transform: rotate(30deg);
 }
-.menu-main a:before {left: 5px;}
-.menu-main a:after {right: 5px;}
-.menu-main a.current:before,
-.menu-main a.current:after,
-.menu-main a:hover:before, 
-.menu-main a:hover:after {opacity: 1;}
-.menu-main a.current,
-.menu-main a:hover {color: #F58262;}
-@media(max-width:680px) {
-  .menu-main li {display: block;}
+.topmenu > li:last-child:after {
+  background: none;
+  box-shadow: none;
+}
+.topmenu > li > a {
+  padding: 12px 26px;
+  color: #767676;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Exo 2', sans-serif;
+}
+.topmenu li a:hover { color: #c0a97a; }
+.submenu {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 210px;
+  margin-left: -105px;
+  background: #fafafa;
+  border: 1px solid #ededed;
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(.8);
+  transition: .4s ease-in-out;
+}
+.submenu li a {
+  padding: 10px 0;
+  margin: 0 10px;
+  border-bottom: 1px solid #efefef;
+  font-size: 12px;
+  color: #484848;
+  font-family: 'Kurale', serif;
+}
+.topmenu > li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}body {
+  background-color: black;
 }
 
 .clearfix {display: inline-block;}
