@@ -319,6 +319,7 @@ ol li {
   list-style-position: inside;
   list-style: decimal;
   padding-left: 3px;
+  color: #303030;
 }
 
 dl dt {
@@ -342,7 +343,7 @@ footer a:hover {
 }
 
 article {
-	background: #ebe8d9;
+	/*background: #ebe8d9;
 	margin: 0 0 30px 0;
 	padding: 20px;
 	border-radius: 15px;
@@ -350,7 +351,8 @@ article {
 	-webkit-border-radius: 15px;
 	box-shadow: 0 0 10px #629996;
 	-moz-box-shadow: 0 0 10px #629996;
-	-webkit-box-shadow: 0 0 10px #629996;
+	-webkit-box-shadow: 0 0 10px #629996;*/
+	background: transparent url('../images/блок1.jpg') 0 0 no-repeat;
 }
 
 /* MISC */

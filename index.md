@@ -23,6 +23,14 @@ layout: default
 <li><a href="#tts">Модуль tts.php</a></li>
 <li><a href="#weather">Модуль weather.php</a></li>
 </ul>
+<h2>Авторы</h2>
+<ul>
+<li><a href="#sanya">Саня</a></li>
+<li><a href="#ylya">Юля</a></li>
+<li><a href="#yar">Ярик</a></li>
+<li><a href="#vlad">Влад</a></li>
+<li><a href="#leh">Лёха</a></li>
+</ul>
 </article>
 
 -------------------------
@@ -218,3 +226,37 @@ function weather($peer_id) {
 
 -------------------------
 
+<a name="sanya"></a>
+## Саня
+![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
+<article>Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.</article>
+
+-------------------------
+
+<a name="ylya"></a>
+## Юля
+![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
+<article>Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.</article>
+
+-------------------------
+
+<a name="yar"></a>
+## Ярик
+![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
+<article>Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.</article>
+
+-------------------------
+
+<a name="vlad"></a>
+## Влад
+![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
+<article>Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.</article>
+
+-------------------------
+
+<a name="leh"></a>
+## Лёха
+![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
+<article>Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.</article>
+
+-------------------------
