@@ -7,31 +7,30 @@ layout: default
 # Что vk-бот из себя представляет.
 ```
 Чат-бот – это программа-собеседник имитирующая человеческое общение при помощи текста или голоса.
-
+```
 ![бот](https://github.com/fplve/vika/raw/gh-pages/assets/images/listia_kirpichnaia_stena_rastenie_122951_1920x1080.jpg)
-
+```
 Чат-боты помогают автоматизировать задачи, работая по заданному алгоритму. Они ведут диалог с пользователем, выполняя его просьбы, отвечая на запросы или развлекая своими ответами.
 ```
 
 -------------------------
 
 <h2>Модули</h2>
-[Модуль cmdlist.php](#cmdlist)
-[Модуль info.php](#info)
-[Модуль picture.php](#picture)
-[Модуль qanda.php](#qanda)
-[Модуль rolling.php](#rolling)
-[Модуль tts.php](#tts)
-[Модуль weather.php](#weather)
+*[Модуль cmdlist.php](#cmdlist)
+*[Модуль info.php](#info)
+*[Модуль picture.php](#picture)
+*[Модуль qanda.php](#qanda)
+*[Модуль rolling.php](#rolling)
+*[Модуль tts.php](#tts)
+*[Модуль weather.php](#weather)
 
 
 <h2>Авторы</h2>
-[Саня](#sanya)
-[Юля](#ylya)
-[Ярик](#yar)
-[Влад](#vlad)
-[Лёха](#leh)
-</article>
+*[Саня](#sanya)
+*[Юля](#ylya)
+*[Ярик](#yar)
+*[Влад](#vlad)
+*[Лёха](#leh)
 
 -------------------------
 
@@ -40,9 +39,8 @@ layout: default
 
 ```
 Данный модуль выводит список $text.
-![инфо](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_list.gif)
 ```
-
+![инфо](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_list.gif)
 ```php
 <?php
 function cmdlist($text, $peer_id) {
