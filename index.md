@@ -1,5 +1,3 @@
-![foot](https://github.com/fplve/vika/raw/gh-pages/assets/images/vika-pika.jpg)
-
 ---
 layout: default
 ---
