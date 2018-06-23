@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[![Watch the video](https://github.com/fplve/vika/raw/gh-pages/assets/images/chat-bot_original.gif)](https://vk.com/video144351669_456239071)
+[![Watch the video](https://github.com/fplve/vika/raw/gh-pages/assets/images/chat-bot_original.gif)](https://vk.com/video144351669_456239072)
 
 # Что vk-бот из себя представляет.
 
