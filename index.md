@@ -10,11 +10,12 @@ layout: default
 человеческое общение при помощи текста или голоса.
 ```
 ![бот](https://github.com/fplve/vika/raw/gh-pages/assets/images/listia_kirpichnaia_stena_rastenie_122951_1920x1080.jpg)
-```
+`
 Чат-боты помогают автоматизировать задачи, работая
 по заданному алгоритму. Они ведут диалог с пользователем,
-выполняя его просьбы, отвечая на запросы или развлекая своими ответами.
-```
+выполняя его просьбы, отвечая на запросы или развлекая
+своими ответами.
+`
 
 -------------------------
 
@@ -77,7 +78,7 @@ function cmdlist($text, $peer_id) {
 <a name="info"></a>
 ### Модуль info.php
 
-<article>Данный модуль показывает список всех команд, доступных боту.</article>
+Данный модуль показывает список всех команд, доступных боту.
 
 ![инфо](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_info.gif)
 ```php
@@ -122,7 +123,7 @@ function info($peer_id) {
 <a name="picture"></a>
 ### Модуль picture.php
 
-<article>Данный модуль отправляет случайное изображение, из доступных боту.</article>
+Данный модуль отправляет случайное изображение, из доступных боту.
 
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
 ```php
@@ -149,7 +150,7 @@ function picture($peer_id) {
 <a name="qanda"></a>
 ### Модуль qanda.php
 
-<article>Данный модуль случайно отвечает на вопрос.</article>
+Данный модуль случайно отвечает на вопрос.
 
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
 ```php
@@ -168,7 +169,7 @@ function questionandanswer($peer_id, $message_id) {
 <a name="rolling"></a>
 ### Модуль rolling.php
 
-<article>Данный модуль... что-то делает, я не понял.</article>
+Данный модуль... что-то делает, я не понял.
 
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
 ```php
@@ -192,7 +193,7 @@ function roll($text, $peer_id) {
 <a name="tts"></a>
 ### Модуль tts.php
 
-<article>Данный модуль озвучивает сообщение с помощью технологии Яндекса Cloud SpeechKit.</article>
+Данный модуль озвучивает сообщение с помощью технологии Яндекса Cloud SpeechKit.
 
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
 ```php
@@ -212,7 +213,7 @@ function tts($text, $peer_id) {
 <a name="weather"></a>
 ### Модуль weather.php
 
-<article>Данный модуль возвращает текущую погоду в Омске.</article>
+Данный модуль возвращает текущую погоду в Омске.
 
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_weather.gif)
 ```php
@@ -232,34 +233,34 @@ function weather($peer_id) {
 <a name="sanya"></a>
 ## Саня
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
-<article>Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.</article>
+Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.=
 
 -------------------------
 
 <a name="ylya"></a>
 ## Юля
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
-<article>Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.</article>
+Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.
 
 -------------------------
 
 <a name="yar"></a>
 ## Ярик
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
-<article>Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.</article>
+Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.
 
 -------------------------
 
 <a name="vlad"></a>
 ## Влад
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
-<article>Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.</article>
+Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.
 
 -------------------------
 
 <a name="leh"></a>
 ## Лёха
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
-<article>Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.</article>
+Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.
 
 -------------------------
