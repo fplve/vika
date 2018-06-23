@@ -38,7 +38,9 @@ layout: default
 <a name="cmdlist"></a>
 ### Модуль cmdlist.php
 
-`Данный модуль выводит список $text.`
+```
+Данный модуль выводит список $text.
+```
 
 ![инфо](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_list.gif)
 ```php
