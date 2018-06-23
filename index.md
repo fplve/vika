@@ -5,32 +5,32 @@ layout: default
 [![Watch the video](https://github.com/fplve/vika/raw/gh-pages/assets/images/chat-bot_original.gif)](https://vk.com/video144351669_456239072)
 
 # Что vk-бот из себя представляет.
+```
+Чат-бот – это программа-собеседник имитирующая человеческое общение при помощи текста или голоса.
 
-<article>Чат-бот – это программа-собеседник имитирующая человеческое общение при помощи текста или голоса.</article>
 ![бот](https://github.com/fplve/vika/raw/gh-pages/assets/images/listia_kirpichnaia_stena_rastenie_122951_1920x1080.jpg)
-<article>Чат-боты помогают автоматизировать задачи, работая по заданному алгоритму. Они ведут диалог с пользователем, выполняя его просьбы, отвечая на запросы или развлекая своими ответами.</article>
+
+Чат-боты помогают автоматизировать задачи, работая по заданному алгоритму. Они ведут диалог с пользователем, выполняя его просьбы, отвечая на запросы или развлекая своими ответами.
+```
 
 -------------------------
 
-<article>
 <h2>Модули</h2>
-<ul>
-<li><a href="#cmdlist">Модуль cmdlist.php</a></li>
-<li><a href="#info">Модуль info.php</a></li>
-<li><a href="#picture">Модуль picture.php</a></li>
-<li><a href="#qanda">Модуль qanda.php</a></li>
-<li><a href="#rolling">Модуль rolling.php</a></li>
-<li><a href="#tts">Модуль tts.php</a></li>
-<li><a href="#weather">Модуль weather.php</a></li>
-</ul>
+[Модуль cmdlist.php](#cmdlist)
+[Модуль info.php](#info)
+[Модуль picture.php](#picture)
+[Модуль qanda.php](#qanda)
+[Модуль rolling.php](#rolling)
+[Модуль tts.php](#tts)
+[Модуль weather.php](#weather)
+
+
 <h2>Авторы</h2>
-<ul>
-<li><a href="#sanya">Саня</a></li>
-<li><a href="#ylya">Юля</a></li>
-<li><a href="#yar">Ярик</a></li>
-<li><a href="#vlad">Влад</a></li>
-<li><a href="#leh">Лёха</a></li>
-</ul>
+[Саня](#sanya)
+[Юля](#ylya)
+[Ярик](#yar)
+[Влад](#vlad)
+[Лёха](#leh)
 </article>
 
 -------------------------
@@ -40,9 +40,9 @@ layout: default
 
 ```
 Данный модуль выводит список $text.
+![инфо](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_list.gif)
 ```
 
-![инфо](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_list.gif)
 ```php
 <?php
 function cmdlist($text, $peer_id) {

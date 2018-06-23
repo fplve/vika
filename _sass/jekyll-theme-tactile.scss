@@ -89,8 +89,7 @@ header h2 {
 
 #container {
   min-height: 595px;
-  background: transparent url(../images/foot-bg.jpg) 50% 0 no-repeat;
-  display: block;
+  /*background: transparent url(../images/foot-bg.jpg) 50% 0 no-repeat;*/
 }
 
 .inner {
@@ -343,19 +342,6 @@ footer a:hover {
   color: #444;
 }
 
-article {
-	/*background: #ebe8d9;
-	margin: 0 0 30px 0;
-	padding: 20px;
-	border-radius: 15px;
-	-moz-border-radius: 15px;
-	-webkit-border-radius: 15px;
-	box-shadow: 0 0 10px #629996;
-	-moz-box-shadow: 0 0 10px #629996;
-	-webkit-box-shadow: 0 0 10px #629996;*/
-	background: transparent url('../images/234.jpg') 0 0 repeat;
-	text-color: #fcfcfc;
-}
 
 /* MISC */
 .clearfix:after {
