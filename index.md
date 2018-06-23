@@ -13,8 +13,10 @@ layout: default
 -------------------------
 
 <article>
-## Содержание
+<h2>Модули</h2>
+<a href="#cmdlist">Модуль cmdlist.php</a>
 * [Модуль cmdlist.php](#cmdlist)
+<a href="#info">Модуль info.php</a>
 * [Модуль info.php](#info)
 * [Модуль picture.php](#picture)
 * [Модуль qanda.php](#qanda)
