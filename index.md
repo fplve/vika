@@ -16,21 +16,21 @@ layout: default
 -------------------------
 
 <h2>Модули</h2>
-*[Модуль cmdlist.php](#cmdlist)
-*[Модуль info.php](#info)
-*[Модуль picture.php](#picture)
-*[Модуль qanda.php](#qanda)
-*[Модуль rolling.php](#rolling)
-*[Модуль tts.php](#tts)
-*[Модуль weather.php](#weather)
+* [Модуль cmdlist.php](#cmdlist)
+* [Модуль info.php](#info)
+* [Модуль picture.php](#picture)
+* [Модуль qanda.php](#qanda)
+* [Модуль rolling.php](#rolling)
+* [Модуль tts.php](#tts)
+* [Модуль weather.php](#weather)
 
 
 <h2>Авторы</h2>
-*[Саня](#sanya)
-*[Юля](#ylya)
-*[Ярик](#yar)
-*[Влад](#vlad)
-*[Лёха](#leh)
+* [Саня](#sanya)
+* [Юля](#ylya)
+* [Ярик](#yar)
+* [Влад](#vlad)
+* Лёха](#leh)
 
 -------------------------
 
