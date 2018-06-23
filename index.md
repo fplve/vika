@@ -12,6 +12,7 @@ layout: default
 
 -------------------------
 
+<article>
 ## Содержание
 * [Модуль cmdlist.php](#cmdlist)
 * [Модуль info.php](#info)
@@ -20,6 +21,7 @@ layout: default
 * [Модуль rolling.php](#rolling)
 * [Модуль tts.php](#tts)
 * [Модуль weather.php](#weather)
+</article>
 
 -------------------------
 
@@ -63,6 +65,7 @@ function cmdlist($text, $peer_id) {
 ### Модуль info.php
 
 Данный модуль показывает список всех команд, доступных боту.
+
 ![инфо](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_info.gif)
 ```php
 <?php
@@ -107,6 +110,7 @@ function info($peer_id) {
 ### Модуль picture.php
 
 Данный модуль отправляет случайное изображение, из доступных боту.
+
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
 ```php
 <?php
@@ -133,6 +137,7 @@ function picture($peer_id) {
 ### Модуль qanda.php
 
 Данный модуль случайно отвечает на вопрос.
+
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
 ```php
 <?php
@@ -151,6 +156,7 @@ function questionandanswer($peer_id, $message_id) {
 ### Модуль rolling.php
 
 Данный модуль... что-то делает, я не понял.
+
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
 ```php
 <?php
@@ -194,6 +200,7 @@ function tts($text, $peer_id) {
 ### Модуль weather.php
 
 Данный модуль возвращает текущую погоду в Омске.
+
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_weather.gif)
 ```php
 <?php
