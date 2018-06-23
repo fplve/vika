@@ -77,9 +77,10 @@ function cmdlist($text, $peer_id) {
 
 <a name="info"></a>
 ### Модуль info.php
-
-Данный модуль показывает список всех команд, доступных боту.
-
+```
+Данный модуль показывает список всех команд,
+доступных боту.
+```
 ![инфо](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_info.gif)
 ```php
 <?php
@@ -122,9 +123,10 @@ function info($peer_id) {
 
 <a name="picture"></a>
 ### Модуль picture.php
-
-Данный модуль отправляет случайное изображение, из доступных боту.
-
+```
+Данный модуль отправляет случайное изображение,
+из доступных боту.
+```
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
 ```php
 <?php
@@ -149,9 +151,9 @@ function picture($peer_id) {
 
 <a name="qanda"></a>
 ### Модуль qanda.php
-
+```
 Данный модуль случайно отвечает на вопрос.
-
+```
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
 ```php
 <?php
@@ -168,9 +170,9 @@ function questionandanswer($peer_id, $message_id) {
 
 <a name="rolling"></a>
 ### Модуль rolling.php
-
+```
 Данный модуль... что-то делает, я не понял.
-
+```
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
 ```php
 <?php
@@ -192,9 +194,10 @@ function roll($text, $peer_id) {
 
 <a name="tts"></a>
 ### Модуль tts.php
-
-Данный модуль озвучивает сообщение с помощью технологии Яндекса Cloud SpeechKit.
-
+```
+Данный модуль озвучивает сообщение с помощью технологии
+Яндекса Cloud SpeechKit.
+```
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
 ```php
 <?php
@@ -212,9 +215,9 @@ function tts($text, $peer_id) {
 
 <a name="weather"></a>
 ### Модуль weather.php
-
+```
 Данный модуль возвращает текущую погоду в Омске.
-
+```
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_weather.gif)
 ```php
 <?php
@@ -233,39 +236,44 @@ function weather($peer_id) {
 <a name="sanya"></a>
 ## Саня
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
-
-Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.
-
+```
+Тут будет текст про этого человечка, я просто
+написал вот это, что бы хоть что-то было написано.
+```
 -------------------------
 
 <a name="ylya"></a>
 ## Юля
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
-
-Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.
-
+```
+Тут будет текст про этого человечка, я просто
+написал вот это, что бы хоть что-то было написано.
+```
 -------------------------
 
 <a name="yar"></a>
 ## Ярик
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
-
-Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.
-
+```
+Тут будет текст про этого человечка, я просто
+написал вот это, что бы хоть что-то было написано.
+```
 -------------------------
 
 <a name="vlad"></a>
 ## Влад
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
-
-Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.
-
+```
+Тут будет текст про этого человечка, я просто
+написал вот это, что бы хоть что-то было написано.
+```
 -------------------------
 
 <a name="leh"></a>
 ## Лёха
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
-
-Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.
-
+```
+Тут будет текст про этого человечка, я просто
+написал вот это, что бы хоть что-то было написано.
+```
 -------------------------
