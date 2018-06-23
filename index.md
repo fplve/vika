@@ -233,13 +233,15 @@ function weather($peer_id) {
 <a name="sanya"></a>
 ## Саня
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
-Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.=
+
+Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.
 
 -------------------------
 
 <a name="ylya"></a>
 ## Юля
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
+
 Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.
 
 -------------------------
@@ -247,6 +249,7 @@ function weather($peer_id) {
 <a name="yar"></a>
 ## Ярик
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
+
 Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.
 
 -------------------------
@@ -254,6 +257,7 @@ function weather($peer_id) {
 <a name="vlad"></a>
 ## Влад
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
+
 Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.
 
 -------------------------
@@ -261,6 +265,7 @@ function weather($peer_id) {
 <a name="leh"></a>
 ## Лёха
 ![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/sanya.png)
+
 Тут будет текст про этого человечка, я просто написал вот это, что бы хоть что-то было написано.
 
 -------------------------
