@@ -9,7 +9,7 @@ layout: default
 Чат-бот – это программа-собеседник имитирующая
 человеческое общение при помощи текста или голоса.
 ```
-![бот](https://github.com/fplve/vika/raw/gh-pages/assets/images/listia_kirpichnaia_stena_rastenie_122951_1920x1080.jpg)
+![бот](https://github.com/fplve/vika/raw/gh-pages/assets/images/sTri3hHCLXs.png)
 ```
 Чат-боты помогают автоматизировать задачи, работая
 по заданному алгоритму. Они ведут диалог с пользователем,
