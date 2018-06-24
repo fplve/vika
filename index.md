@@ -135,7 +135,7 @@ function picture($peer_id) {
 ```
 Данный модуль случайно отвечает на вопрос.
 ```
-![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
+![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_q.gif)
 ```php
 <?php
 function questionandanswer($peer_id, $message_id) {
@@ -154,7 +154,7 @@ function questionandanswer($peer_id, $message_id) {
 ```
 Данный модуль... что-то делает, я не понял.
 ```
-![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
+![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_roll.gif)
 ```php
 <?php
 function roll($text, $peer_id) {
@@ -179,7 +179,7 @@ function roll($text, $peer_id) {
 Данный модуль озвучивает сообщение с помощью технологии
 Яндекса Cloud SpeechKit.
 ```
-![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_pic.gif)
+![картинка](https://github.com/fplve/vika/raw/gh-pages/assets/images/c_tts.gif)
 ```php
 <?php
 function tts($text, $peer_id) {
